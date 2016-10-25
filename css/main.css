@@ -1,9 +1,10 @@
 /* CSS style sheet from http://hankquinlan.github.io/
   in the guide http://jmcglone.com/guides/github-pages/
 
-  Gonna edit this with my own CSS */
-  
-/* 
+  Gonna edit this with my own CSS
+  gotta work out a framework somehow (LESS or SASS) */
+
+
 body {
     margin: 60px auto;
     width: 70%;
@@ -39,14 +40,11 @@ footer {
     font-size: .8em;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
+ul.posts {
+    margin: 20px auto 40px;
     font-size: 1.5em;
 }
 
 ul.posts li {
     list-style: none;
-} 
-
-*/
-
+}
