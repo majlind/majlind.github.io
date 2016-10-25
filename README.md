@@ -17,4 +17,5 @@
 ### You gonna put a Parallex view in it?
 >You know, I keep wondering about that myself...
 
-
+### What's the point of this?
+>What's the point of anything?
