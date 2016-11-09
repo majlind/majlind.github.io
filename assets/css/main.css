@@ -893,7 +893,7 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
     -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
     -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
-    background-color: #1c87b4;	/* original color: #1cb495 */
+    background-color: #ff69ff;	/* original color: #1cb495 */
     border-radius: 6px;
     border: 0;
     color: #ffffff !important;
