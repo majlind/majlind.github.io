@@ -322,13 +322,13 @@ a {
     -ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
     transition: border-bottom-color 0.2s ease, color 0.2s ease;
     border-bottom: dotted 1px rgba(255, 255, 255, 0.25);
-    color: #1cb495;
+    color: #ff69b4; /* original color #1cb495 */
     text-decoration: none;
 }
 
 a:hover {
     border-bottom-color: transparent;
-    color: #1cb495 !important;
+    color: #ff69b4 !important; /* original color #1cb495 */
     text-decoration: none;
 }
 
@@ -601,7 +601,7 @@ form .message.visible {
 }
 
 form .message.success {
-    color: #1cb495;
+    color: #ff69b4; /* original color #1cb495 */
 }
 
 form .message.success:before {
@@ -609,7 +609,7 @@ form .message.success:before {
 }
 
 form .message.failure {
-    color: #ff2361;
+    color: #b4ff69; /* original color #ff2351 */
 }
 
 form .message.failure:before {
@@ -743,7 +743,7 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focu
     -ms-animation: focus 0.1s;
     animation: focus 0.1s;
     background-color: rgba(255, 255, 255, 0.125);
-    border-color: #1cb495;
+    border-color: #FF69B4; /* original color #1cg495 */
 }
 
 .select-wrapper {
@@ -837,15 +837,15 @@ input[type="checkbox"]+label:before, input[type="radio"]+label:before {
 }
 
 input[type="checkbox"]:checked+label:before, input[type="radio"]:checked+label:before {
-    background: #1cb495;
-    border-color: #1cb495;
+    background: #FF69B4; /* original color #1cg495 */
+    border-color: #FF69B4; /* original color #1cg495 */
     color: #ffffff;
     content: '\f00c';
 }
 
 input[type="checkbox"]:focus+label:before, input[type="radio"]:focus+label:before {
-    border-color: #1cb495;
-    box-shadow: 0 0 0 2px #1cb495;
+    border-color: #FF69B4; /* original color #1cg495 */
+    box-shadow: 0 0 0 2px #FF69B4; /* original color #1cg495 */
 }
 
 input[type="checkbox"]+label:before {
@@ -910,12 +910,12 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
 
 input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, button:hover, .button:hover {
 		/* original background-color: #1fcaa7; */
-		background-color: #ffa5d2;
+		background-color: #7f345a;
 }
 
 input[type="submit"]:active, input[type="reset"]:active, input[type="button"]:active, button:active, .button:active {
     /* original background-color: #199e83; */
-		background-color: #7f345a;
+		background-color: #ffb4d9;
 }
 
 input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"].disabled, input[type="reset"]:disabled, input[type="button"].disabled, input[type="button"]:disabled, button.disabled, button:disabled, .button.disabled, .button:disabled {

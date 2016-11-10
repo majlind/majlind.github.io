@@ -95,15 +95,15 @@
                 'images/bg02.jpg': 'center',
                 'images/bg03.jpg': 'right'
 
-								// Add two more images & play with alignment
-								/*
-								'images/bg04.jpg': 'center'
-								'images/bg05.jpg': 'center'
-								*/
+                // Add two more images & play with alignment
+                /*
+                'images/bg04.jpg': 'center'
+                'images/bg05.jpg': 'center'
+                */
             },
 
             // Delay.
-            delay: 8000
+            delay: 14000
 
         };
 
