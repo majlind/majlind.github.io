@@ -93,17 +93,17 @@
             images: {
                 'images/bg01.jpg': 'center',
                 'images/bg02.jpg': 'center',
-                'images/bg03.jpg': 'right'
-
-                // Add two more images & play with alignment
-                /*
-                'images/bg04.jpg': 'center'
-                'images/bg05.jpg': 'center'
-                */
+                'images/bg03.jpg': 'center',
+                'images/bg04.jpg': 'center',
+                'images/bg05.jpg': 'center',
+                'images/bg06.jpg': 'center',
+                'images/bg07.jpg': 'center',
+                'images/bg08.jpg': 'center',
+                'images/bg09.jpg': 'center'
             },
 
             // Delay.
-            delay: 14000
+            delay: 6000
 
         };
 
