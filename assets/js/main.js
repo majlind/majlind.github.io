@@ -90,6 +90,7 @@
         var settings = {
 
             // Images (in the format of 'url': 'alignment').
+            // 'alignment' is vertical alignment (top, center, or bottom)
             images: {
                 'images/bg01.jpg': 'center',
                 'images/bg02.jpg': 'center',
@@ -222,7 +223,7 @@
                 $submit.disabled = false;
 
                 // Show message.
-                $message._show('success', 'Much appreciated');
+                $message._show('success', 'Much appreciated!');
                 //$message._show('failure', 'Something went wrong. Please try again.');
 
             }, 750);
