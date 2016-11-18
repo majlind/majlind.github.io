@@ -974,6 +974,7 @@
 		button:active,
 		.button:active {
 			background-color: #6cff66;
+			color: #000000;
 		}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
