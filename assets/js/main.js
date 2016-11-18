@@ -94,13 +94,16 @@
             images: {
                 'images/bg01.jpg': 'center',
                 'images/bg02.jpg': 'center',
-                'images/bg03.jpg': 'center',
+                'images/bg03.jpg': 'bottom',
                 'images/bg04.jpg': 'center',
                 'images/bg05.jpg': 'center',
                 'images/bg06.jpg': 'center',
-                'images/bg07.jpg': 'center',
+                'images/bg07.jpg': 'top',
                 'images/bg08.jpg': 'center',
-                'images/bg09.jpg': 'center'
+                'images/bg09.jpg': 'center',
+                'images/bg010.jpg': 'center',
+                'images/bg011.jpg': 'center',
+                'images/bg012.jpg': 'center'
             },
 
             // Delay.
