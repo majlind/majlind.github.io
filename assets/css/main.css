@@ -637,7 +637,7 @@
 				}
 
 	label {
-		color: #fc6399;	/* was #fff */
+		color: #fff;
 		display: block;
 		font-size: 0.9em;
 		font-weight: 700;
@@ -973,8 +973,7 @@
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: #fff;	/* TODO: edit to complimentary color of #fc6399 */
-			color: #fc6399;
+			background-color: #ff889a;	/* TODO: edit to complimentary color of #fc6399 */
 		}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
