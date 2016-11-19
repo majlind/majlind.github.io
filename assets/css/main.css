@@ -284,7 +284,7 @@
 /* Type */
 
 	body, input, select, textarea {
-		color: rgba(255, 255, 255, 0.75);
+		color: rgba(252, 99, 153, 0.5);
 		font-family: "Roboto", sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -463,7 +463,7 @@
 	}
 
 	header p {
-		color: rgba(255, 255, 255, 0.5);
+		color: rgba(252, 99, 153, 0.5);
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
