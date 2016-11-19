@@ -365,7 +365,8 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #fff;
+		color: #fc6399;
+		/* old color: #fff */
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -378,6 +379,7 @@
 
 	h1 {
 		font-size: 2.5em;
+		/* TODO: potentially increase font-size */
 		line-height: 1.25em;
 	}
 
