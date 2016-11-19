@@ -285,8 +285,7 @@
 /* Type */
 
 	body, input, select, textarea {
-		color: rgba(252, 99, 153, 0.75); 
-		/* was rgba(255, 255, 255, 0.75); */
+		color: rgba(255, 255, 255, 0.75);
 		font-family: "Roboto", sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -340,13 +339,15 @@
 		-ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		border-bottom: dotted 1px rgba(255, 255, 255, 0.25);
-		color: #1cb495;
+		color: #fc6399;
+		/* old color: #1cb495; */
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #1cb495 !important;
+			color: #fc6399 !important;
+			/* old color: fc6399; */
 			text-decoration: none;
 		}
 
@@ -465,7 +466,8 @@
 	}
 
 	header p {
-		color: rgba(255, 255, 255, 0.5);
+		color: rgba(252, 99, 153, 0.8);
+		/* old color: rgba(255, 255, 255, 0.5); */
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
@@ -623,7 +625,8 @@
 			}
 
 			form .message.success {
-				color: #1cb495;
+				color: #fc6399;
+				/* old color: #1cb495; */
 			}
 
 				form .message.success:before {
@@ -631,7 +634,8 @@
 				}
 
 			form .message.failure {
-				color: #ff2361;
+				color: #ff2361; /* TODO: change this color */
+				/* old color: #ff2361; */
 			}
 
 				form .message.failure:before {
@@ -785,7 +789,8 @@
 			-ms-animation: focus 0.1s;
 			animation: focus 0.1s;
 			background-color: rgba(255, 255, 255, 0.125);
-			border-color: #1cb495;
+			border-color: #fc6399;
+			/* old border-color: #1cb495; */
 		}
 
 	.select-wrapper {
@@ -887,16 +892,20 @@
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #1cb495;
-			border-color: #1cb495;
+			background: #fc6399;
+			/* old background: #1cb495; */
+			border-color: #fc6399;
+			/* old border-color: #1cb495; */
 			color: #ffffff;
 			content: '\f00c';
 		}
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #1cb495;
-			box-shadow: 0 0 0 2px #1cb495;
+			border-color: #fc6399;
+			/* old border-color: #1cb495;
+			box-shadow: 0 0 0 2px #fc6399;
+			/* old box-shadow: 0 0 0 2px #1cb495; */
 		}
 
 	input[type="checkbox"] + label:before {
@@ -947,7 +956,8 @@
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
-		background-color: #1cb495;
+		background-color: #fc6399;
+		/* old background-color: #1cb495; */
 		border-radius: 6px;
 		border: 0;
 		color: #ffffff !important;
@@ -967,7 +977,8 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #1fcaa7;
+			background-color: #fc6399;
+			/* old background-color: #1fcaa7; */
 		}
 
 		input[type="submit"]:active,
@@ -975,7 +986,8 @@
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: #199e83;
+			background-color: #199e83; /* TODO: change color */
+			/* background-color: #199e83; */
 		}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
