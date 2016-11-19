@@ -57,9 +57,6 @@ Slideshow Background:
 
 Credits:
 
-	Demo Images:
-		Unsplash (unsplash.com)
-
 	Icons:
 		Font Awesome (fortawesome.github.com/Font-Awesome)
 
