@@ -420,12 +420,12 @@
 		font-style: italic;
 		margin: 0 0 2em 0;
 		padding: 0.5em 0 0.5em 2em;
-	}
+
 
 	code {
 		background: rgba(255, 255, 255, 0.125);
 		border-radius: 6px;
-		border: solid 2px rgba(255, 255, 255, 0.35);
+		border: solid 2px rgba(252, 99, 153, 0.35); /* was rgba(255, 255, 255, 0.35) */
 		font-family: "Courier New", monospace;
 		font-size: 0.9em;
 		margin: 0 0.25em;
@@ -448,7 +448,7 @@
 
 	hr {
 		border: 0;
-		border-bottom: solid 2px rgba(255, 255, 255, 0.35);
+		border-bottom: solid 2px rgba(252, 99, 153, 0.35); /* was rgba(255, 255, 255, 0.35) */
 		margin: 2em 0;
 	}
 
@@ -463,7 +463,7 @@
 	}
 
 	header p {
-		color: rgba(252, 99, 153, 0.5);
+		color: rgba(252, 99, 153, 0.9);
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
@@ -637,7 +637,7 @@
 				}
 
 	label {
-		color: #fff;	/* TODO :potentially change to #fc6399 */
+		color: #fc6399;	/* was #fff */
 		display: block;
 		font-size: 0.9em;
 		font-weight: 700;
@@ -756,7 +756,7 @@
 		background-color: transparent;
 		border-radius: 6px;
 		border: none;
-		border: solid 2px rgba(255, 255, 255, 0.35);
+		border: solid 2px rgba(252, 99, 153, 0.35); /* was rgba(255, 255, 255, 0.35) */
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -802,7 +802,7 @@
 		}
 
 		.select-wrapper:before {
-			color: rgba(255, 255, 255, 0.35);
+			color: rgba(252, 99, 153, 0.35); /* was rgba(255, 255, 255, 0.35) */
 			content: '\f078';
 			display: block;
 			height: 2.75em;
@@ -871,7 +871,7 @@
 			input[type="radio"] + label:before {
 				background: rgba(255, 255, 255, 0.125);
 				border-radius: 6px;
-				border: solid 2px rgba(255, 255, 255, 0.35);
+				border: solid 2px rgba(252, 99, 153, 0.35); /* was rgba(255, 255, 255, 0.35) */
 				content: '';
 				display: inline-block;
 				height: 1.65em;
@@ -973,7 +973,8 @@
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: #ff66e6;	/* TODO: edit to complimentary color of #fc6399 */
+			background-color: #fff;	/* TODO: edit to complimentary color of #fc6399 */
+			color: #fc6399;
 		}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -1116,7 +1117,7 @@
 		}
 
 			#footer .copyright li {
-				border-left: solid 1px rgba(255, 255, 255, 0.25);
+				border-left: solid 1px rgba(252, 99, 153, 0.25); /* was rgba(255, 255, 255, 0.25) */
 				display: inline-block;
 				line-height: 1em;
 				margin: 0 0 0 0.75em;
