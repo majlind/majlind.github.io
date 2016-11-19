@@ -871,7 +871,7 @@
 			input[type="radio"] + label:before {
 				background: rgba(255, 255, 255, 0.125);
 				border-radius: 6px;
-				border: solid 2px rgba(252, 99, 153, 0.35); /* was rgba(255, 255, 255, 0.35) */
+				border: solid 2px rgba(255, 255, 255, 0.35);
 				content: '';
 				display: inline-block;
 				height: 1.65em;
