@@ -425,7 +425,7 @@
 	code {
 		background: rgba(255, 255, 255, 0.125);
 		border-radius: 6px;
-		border: solid 2px rgba(252, 99, 153, 0.35); /* was rgba(255, 255, 255, 0.35) */
+		border: solid 2px rgba(255, 255, 255, 0.35);
 		font-family: "Courier New", monospace;
 		font-size: 0.9em;
 		margin: 0 0.25em;
