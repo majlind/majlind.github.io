@@ -284,8 +284,10 @@
 
 /* Type */
 
+
 	body, input, select, textarea {
-		color: rgba(255, 255, 255, 0.75);
+		color: rgba(252, 99, 153, 0.75);
+		/* was color: rgba(255, 255, 255, 0.75); */
 		font-family: "Roboto", sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -744,6 +746,7 @@
 		}
 	}
 
+	/* 'email address' box by default */
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
@@ -762,9 +765,12 @@
 		-ms-transition: border-color 0.2s ease, background-color 0.2s ease;
 		transition: border-color 0.2s ease, background-color 0.2s ease;
 		background-color: transparent;
+		/* transparent = rgba(255, 255, 255, 0) */
 		border-radius: 6px;
 		border: none;
-		border: solid 2px rgba(255, 255, 255, 0.35);
+		border: solid 2px rgba(252, 99, 153, 0.05);
+		/* border was rgba(255, 255, 255, 0.35);
+			border was grey-transparent */
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -781,6 +787,7 @@
 			box-shadow: none;
 		}
 
+		/* when user is typing into 'email address' */
 		input[type="text"]:focus,
 		input[type="password"]:focus,
 		input[type="email"]:focus,
@@ -790,7 +797,9 @@
 			-webkit-animation: focus 0.1s;
 			-ms-animation: focus 0.1s;
 			animation: focus 0.1s;
-			background-color: rgba(255, 255, 255, 0.125);
+			background-color: rgba(0,0,0, 0.75);
+			/* was background-color: rgba(255, 255, 255, 0.125);
+			transparent background when clicked on */
 			border-color: #fc6399;
 			/* old border-color: #1cb495; */
 		}
@@ -811,7 +820,9 @@
 		}
 
 		.select-wrapper:before {
+			/* TODO: does this value affect the placeholder(='email address')? */
 			color: rgba(255, 255, 255, 0.35);
+
 			content: '\f078';
 			display: block;
 			height: 2.75em;
@@ -1019,8 +1030,10 @@
 /* Header */
 
 	#header h1 {
-		font-size: 3.25em;
-		margin: 0 0 0.55em 0;
+		font-size: 8em;
+		/* was font-size: 3.5em; */
+		margin: 0 0 0 0;
+		/* was 0 0 0.55em 0; */
 	}
 
 	#header p {
