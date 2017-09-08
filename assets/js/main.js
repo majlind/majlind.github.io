@@ -222,8 +222,8 @@
                 $submit.disabled = false;
 
                 // Show message.
-                $message._show('success', 'Much appreciated');
-                //$message._show('failure', 'Something went wrong. Please try again.');
+                $message._show('success', 'Cool ok gracias');
+                //$message._show('failure', 'F A I L U R E  M U A H H H ... H');
 
             }, 750);
 
